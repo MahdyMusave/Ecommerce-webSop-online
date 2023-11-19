@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io";
+import { FaYoutube } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -10,12 +13,12 @@ function Footer() {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img
-                  src="/newsLetter.png"
+                  src="./image/newsletter_4627664.png"
                   alt="newsLetter"
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "blue",
+             
                   }}
                 />
                 <h2 className="text-white mb-0 text-center">
@@ -59,28 +62,28 @@ function Footer() {
                 </address>
                 <a
                   href="tel:+98 9380325329"
-                  className="mt-4 d-block mb-2 text-white text-decoration-none"
+                  className="mt-3 d-block mb-2 text-white text-decoration-none"
                 >
                   +989380325329
                 </a>
                 <a
                   href="mailto:mahdy@gmail.com"
-                  className="mt-4 d-block mb-2 text-white text-decoration-none"
+                  className="mt-2 d-block mb-2 text-white text-decoration-none"
                 >
                   musavemahdy@gmail.com
                 </a>
-                <div className="social-icons">
-                  <a href="">
-                    <img src="" alt="social icons" />
+                <div className="social-icons d-flex mt-3 align-items-center gap-15">
+                  <a className="text-white" href="#Home">
+                    <IoLogoLinkedin className="fs-4" />
                   </a>
-                  <a href="">
-                    <img src="" alt="social icons" />
+                  <a className="text-white" href="#Home">
+                    <FaYoutube className="fs-4" />
                   </a>
-                  <a href="">
-                    <img src="" alt="social icons" />
+                  <a className="text-white" href="#Home">
+                    <FaTelegram className="fs-4" />
                   </a>
-                  <a href="">
-                    <img src="" alt="social icons" />
+                  <a className="text-white" href="#Home">
+                    <FaFacebook className="fs-4" />
                   </a>
                 </div>
               </div>

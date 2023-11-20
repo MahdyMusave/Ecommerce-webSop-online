@@ -18,7 +18,6 @@ function Footer() {
                   style={{
                     width: "40px",
                     height: "40px",
-             
                   }}
                 />
                 <h2 className="text-white mb-0 text-center">
@@ -72,7 +71,7 @@ function Footer() {
                 >
                   musavemahdy@gmail.com
                 </a>
-                <div className="social-icons d-flex mt-3 align-items-center gap-15">
+                <div className="social-icons d-flex mt-3 align-items-center gap-30">
                   <a className="text-white" href="#Home">
                     <IoLogoLinkedin className="fs-4" />
                   </a>

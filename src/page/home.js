@@ -1,5 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Marquee from "react-fast-marquee";
+import BlogCard from "../component/blogCard";
+import ProductCard from "../component/productCard";
 
 function Home() {
   return (
@@ -220,6 +223,80 @@ function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="Featuredcollection-wrapper py-4 home-wrapper-2">
+        <div className="container-xxl container-blog">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featured Collection</h3>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl container-blog">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latast Blogs</h3>
+            </div>
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+          </div>
+        </div>
+      </section>
+      <section className="marque-wrapper  home-wrapper-2 py-5">
+        <div className="container-xxl container-cart">
+          <div className="row">
+            <div className="col-12">
+              <div className="marquee-inner-wrapper card-wrapper">
+                <Marquee className="d-flex">
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                  <div>
+                    <img src="./image/camera.png" alt="" />
+                  </div>
+                </Marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="blog-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl container-blog">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latast Blogs</h3>
+            </div>
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </div>
         </div>
       </section>

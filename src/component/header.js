@@ -143,25 +143,25 @@ function Header() {
                     <div className="d-flex align-items-center gap-15">
                       <NavLink
                         className="text-white text-decoration-none fs-8"
-                        to="/Home"
+                        to="/"
                       >
                         Home
                       </NavLink>
                       <NavLink
                         className="text-white text-decoration-none fs-8"
-                        to="/Our store"
+                        to="/store"
                       >
-                        Our store
+                        our store
                       </NavLink>
                       <NavLink
                         className="text-white text-decoration-none fs-8"
-                        to="/blogs"
+                        to="/blog"
                       >
                         blogs
                       </NavLink>
                       <NavLink
                         className="text-white text-decoration-none fs-8"
-                        to="/Content"
+                        to="/contact"
                       >
                         Content
                       </NavLink>

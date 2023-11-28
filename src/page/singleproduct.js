@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Meta from "../component/meta";
 import BreadCrumb from "../component/breadCrumb";
 import { Link } from "react-router-dom";
-import PopularProduct from "../component/popular_product";
+import ProductCard from "../component/productCard";
 import ReactStars from "react-rating-stars-component";
 import ReactPanZoom from "react-image-pan-zoom-rotate";
 import Zoom from "react-medium-image-zoom";
@@ -369,12 +369,12 @@ const SingleProduct = () => {
               <div className="col-12">
                 <h3 className="section-heading">Our Popular Products</h3>
               </div>
-              <PopularProduct />
-              <PopularProduct />
-              <PopularProduct />
-              <PopularProduct />
-              <PopularProduct />
-              <PopularProduct />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
             </div>
           </div>
         </section>

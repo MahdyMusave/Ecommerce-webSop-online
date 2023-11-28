@@ -84,7 +84,7 @@ const Cart = () => {
                       style={{ width: "400px" }}
                     >
                       <Link
-                        to="/checkout"
+                        to="/check-out"
                         className="text-decoration-none text-white"
                       >
                         check out

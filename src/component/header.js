@@ -52,7 +52,7 @@ function Header() {
             <div className="col-5 ">
               <div className="header-upper-links mt-1 d-flex align-items-center justify-content-between">
                 <Link
-                  to="#"
+                  to="/compare-product"
                   className="d-flex align-items-center text-white gap-10"
                 >
                   <img src="image/exchange-svgrepo-com.svg" alt="Compare" />
@@ -62,7 +62,7 @@ function Header() {
                 </Link>
 
                 <Link
-                  to="#"
+                  to="/whish-List"
                   className="d-flex align-items-center text-white gap-10"
                 >
                   <img
@@ -74,7 +74,7 @@ function Header() {
                   </p>
                 </Link>
                 <Link
-                  to="#"
+                  to="/login"
                   className="d-flex align-items-center text-white gap-10"
                 >
                   <img src="image/login-svgrepo-com.svg" alt="Login" />
@@ -83,7 +83,7 @@ function Header() {
                   </p>
                 </Link>
                 <Link
-                  to="#"
+                  to="/cart"
                   className="d-flex align-items-center text-white gap-10"
                 >
                   <img src="image/market-svgrepo-com.svg" alt="cart" />

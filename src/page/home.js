@@ -362,19 +362,15 @@ function Home() {
             </div>
 
             <div className="col-3">
-              {" "}
-              <BlogCard />{" "}
-            </div>
-            <div className="col-3">
-              {" "}
               <BlogCard />
             </div>
             <div className="col-3">
-              {" "}
               <BlogCard />
             </div>
             <div className="col-3">
-              {" "}
+              <BlogCard />
+            </div>
+            <div className="col-3">
               <BlogCard />
             </div>
           </div>

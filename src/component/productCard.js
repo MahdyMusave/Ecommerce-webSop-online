@@ -14,7 +14,10 @@ const ProductCard = (props) => {
             : "col-2"
         }
       >
-        <Link to="/" className="card-product-link text-decoration-none">
+        <Link
+          to="/store/:id"
+          className="card-product-link text-decoration-none"
+        >
           <div className="card-product position-relative">
             <div className="wishlist-icon d-flex justify-content-end mt-3 mx-3">
               <img src="./image/wishlist-1-256.png" alt="wishlist" />

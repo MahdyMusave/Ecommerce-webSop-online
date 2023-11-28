@@ -17,7 +17,7 @@ const BlogCard = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <Link to="#" className="btn btn-primary">
+          <Link to="/blog/:id" className="btn btn-primary">
             Read more
           </Link>
         </div>

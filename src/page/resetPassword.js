@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ResetPassword = () => {
   return (
     <>
-      <Meta title="forgot Password" />
+     <Meta title="forgot Password" />
       <BreadCrumb title="forgot Password" />
       <div className="reset">
         <div className="reset-wrapper home-wrapper-2 py-5">
@@ -24,7 +24,7 @@ const ResetPassword = () => {
                       placeholder="password"
                       className="form-control"
                     />
-                  </div>
+                  </div> 
                   <div className="">
                     <input
                       type="password"
